@@ -16,10 +16,15 @@ public class Main {
 		int j = 0;
 		
 		
-		while(i <= 20) {
-			System.out.println("Valor de i:" + (i++));
-			
+		while(i < 20) {
+			i++;
+			System.out.println("Valor de i:" + i);
 		}
+		
+		do {
+			k++;
+			System.out.println("Valor de k: "+ k);
+		}while(k < 20);
 	}
 
 }
