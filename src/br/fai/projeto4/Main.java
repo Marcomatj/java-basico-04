@@ -11,7 +11,15 @@ public class Main {
 
 	private void start() {
 		
+		int i = 0;
+		int k = 0;
+		int j = 0;
 		
+		
+		while(i <= 20) {
+			System.out.println("Valor de i:" + (i++));
+			
+		}
 	}
 
 }
