@@ -25,6 +25,12 @@ public class Main {
 			k++;
 			System.out.println("Valor de k: "+ k);
 		}while(k < 20);
+		
+		
+		for(j=1;j<=20;j++) {
+			System.out.println("Valor de j: "+ j);
+		}
 	}
 
 }
+
